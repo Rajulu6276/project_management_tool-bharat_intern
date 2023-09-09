@@ -1,0 +1,74 @@
+body{
+  background: linear-gradient(to bottom, #000000, #008080);
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+#home_page{
+  background: linear-gradient(to bottom, #3366ff, #ffffff);
+  top: 25vh;
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 25vh;
+  width: 50vw;
+} 
+#login_home_page{
+  background: linear-gradient(to bottom, #3366ff, #ffffff);
+  top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 30vh;
+  width: 50vw;
+}
+#register_home_page{
+  background: linear-gradient(to bottom, #3366ff, #ffffff);
+  top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  height: 45vh;
+  width: 50vw;
+}
+#header{
+  background: linear-gradient(to bottom right, #ff5733, #33ff57, #ffcf33);
+  height: 8vh;
+  width: 101vw;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+#left_sidebar{ 
+  margin-top: 50px;
+  width: 13vw;
+  height: 18vh;
+  display: inline-block;
+}
+#left_sidebar table tr{
+  background: linear-gradient(to bottom, #ff5733, #ffcf33);
+  color: white;
+  font-size: 20px;
+}
+#left_sidebar table tr:hover{
+  background: linear-gradient(to bottom, #3366ff, #33ff57);
+}
+#logout_link{
+  text-decoration: none;
+}
+#logout_link:hover{
+  background-color: linear-gradient(45deg, #ff6b81, #87ceeb);
+  color: black;
+}
+#right_sidebar{
+  height: auto;
+  width: 50px;
+  border: none;
+  color: white;
+  display: inline-block;
+}
+#task_creation{
+  color: black;
+}
